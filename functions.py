@@ -16,10 +16,5 @@ def write_todos(todos_arg, filepath=FILEPATH):
         file_Local.writelines(todos_arg)
 
 
-# __name__ is a hidden variable storing name of module or script
-print(__name__)
-print("visible when imported")
-
 if __name__ == "__main__":
-    # use for testing
-    print("not shown if imported")
+    print("script", __name__, "was run directly")
