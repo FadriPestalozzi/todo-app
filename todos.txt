@@ -2,9 +2,6 @@ love
 play
 improvise
 clean the program
-exercise
 sprinkle
 master python!
-talk
-relax
 lastly
