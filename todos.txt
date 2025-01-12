@@ -1,5 +1,10 @@
 love
-make
+play
 improvise
-clean
+clean the program
 exercise
+sprinkle
+master python!
+talk
+relax
+lastly
