@@ -7,12 +7,16 @@ sg.theme('Black')
 clock = sg.Text('',key='clock')
 label = sg.Text('Type in a to-do')
 input_box = sg.InputText(tooltip='Enter todo', key='todo')
-add_button = sg.Button('Add')
+add_button = sg.Button(image_source=r'img\add.png', mouseover_colors='lightblue',
+                       tooltip='Add todo', key='Add')
 list_box = sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=(45, 10))
-edit_button = sg.Button('Edit')
-complete_button = sg.Button('Complete')
-exit_button = sg.Button('Exit')
+edit_button = sg.Button(image_source=r'img\edit.png', mouseover_colors='lightblue',
+                        tooltip='Edit todo', key='Edit')
+complete_button = sg.Button(image_source=r'img\complete.png', mouseover_colors='lightblue',
+                            tooltip='Complete todo', key='Complete')
+exit_button = sg.Button(image_source=r'img\exit.png', mouseover_colors='lightblue',
+                        tooltip='Exit', key='Exit')
 
 # window = mother instance of the gui
 # layout = list of lists to populate gui rows
