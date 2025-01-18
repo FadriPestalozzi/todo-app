@@ -1,7 +1,3 @@
-love
-play the software
-improvise
-clean the program
-sprinkle
-master python!
-excavate
+enchant strings
+modify floats
+love pythons <3
